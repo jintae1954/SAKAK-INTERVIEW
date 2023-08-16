@@ -40,15 +40,15 @@ DataBase는 MySQL을 사용합니다.
 $> node xlparser.js
 ```
 
-3. 서버를 실행합니다.
+4. 서버를 실행합니다.
 
 ```bash
 $> node run real
 ```
 
-4. 브라우저의 빈 탭에서 [http://127.0.0.1:8080/api/v1.0/nutritions](http://127.0.0.1:8080/api/v1.0/nutritions?maker_name=%EA%B1%B0%EC%A0%9C) 를 입력하여 검색 조건이 없는 초기 화면으로 요청합니다.
+5. 브라우저의 빈 탭에서 [http://127.0.0.1:8080/api/v1.0/nutritions](http://127.0.0.1:8080/api/v1.0/nutritions?maker_name=%EA%B1%B0%EC%A0%9C) 를 입력하여 검색 조건이 없는 초기 화면으로 요청합니다.
 
-5. 브라우저의 주소창에 query를 이용하여 검색 인자를 다음과 같이 입력하고 데이터를 확인합니다. [http://127.0.0.1:8080/api/v1.0/nutritions?maker_name=거제](http://127.0.0.1:8080/api/v1.0/nutritions?maker_name=%EA%B1%B0%EC%A0%9C)
+6. 브라우저의 주소창에 query를 이용하여 검색 인자를 다음과 같이 입력하고 데이터를 확인합니다. [http://127.0.0.1:8080/api/v1.0/nutritions?maker_name=거제](http://127.0.0.1:8080/api/v1.0/nutritions?maker_name=%EA%B1%B0%EC%A0%9C)
 
 # 참고 자료
 
